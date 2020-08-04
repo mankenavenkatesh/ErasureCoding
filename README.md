@@ -9,6 +9,7 @@ Solution
 - Error correcting code
 - https://mathworld.wolfram.com/Error-CorrectingCode.html#:~:text=Entries%20%3E%20Interactive%20Demonstrations%20%3E-,Error%2DCorrecting%20Code,based%20on%20the%20remaining%20numbers.
 
+
 # ErasureCoding
 - Protect and gaurantee data availability
 - It's part of Coding theory
@@ -18,6 +19,7 @@ The basic premise of erasure coding goes as follows:ss
 `Take a file and split into k pieces and encode into n pieces. Now, any k pieces can be used to get back the file.`
 - https://www.youtube.com/watch?v=Q5kVuM7zEUI
 - In Erasure Coding, Parity's are Erasure codes
+- https://www.youtube.com/watch?v=cX8LlFZDfqU&list=PLb5_ZDo_8Gd6VEOd2KRN6vxtFJbpUUyXc
 
 ## Advantages and Disadvantages of Erasure Coding
 - https://www.quobyte.com/blog/2016/08/15/erasure-coding-in-production/
@@ -65,6 +67,9 @@ https://en.wikipedia.org/wiki/Binary_Reed%E2%80%93Solomon_encoding
 - Foundation of erasure coding
 - Parity's are Erasure codes.
 - 
+
+## Regenerating codes (optimizes RS codes)
+-  Minimizing the amount of data downloaded is not necessarily the same as minimizing the number of nodes contacted.
 
 ## MDS codes ( maximum separable distance)
 - Any k nodes can get back my file.
